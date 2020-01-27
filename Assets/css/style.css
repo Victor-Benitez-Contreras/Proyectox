@@ -1,0 +1,219 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+
+.logo-navbar {
+        width: 86px;
+}
+
+.navcolor {
+    background: #28A745;
+}
+
+
+P {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+
+.card-title {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    height: 73px;
+}
+
+
+.footer2 {
+    background: #ffffff;
+}
+
+.card-text-1 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.card-text-2 {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 300;
+    color: #707070;  
+}
+
+.caja-precios{
+    width: 100%;
+    padding: 1rem 0rem 0rem;
+    border-top: 0.5px solid #707070A0;
+    margin-top: 1rem;
+    display: inline-block;
+    text-align: right;
+}
+
+.precio-anterior {
+    display: inline-block; 
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+    padding-right: 0.4rem;
+}
+
+
+.precio-actual {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #28A745;
+}
+
+
+.icono {
+    padding-right: 0.3rem;
+}
+
+.recetas-rel {
+    font-size: 40px;
+    font-weight: bold; 
+    margin-bottom: 2rem;
+}
+
+
+h6 {
+    font-size: 21px;
+    font-weight: 500;
+    padding: 0rem 1rem 0rem;
+}
+
+
+.carta-promociones {
+    padding: 2rem 0rem;  
+}
+
+
+/*-- Footer --*/
+
+.newsletter {
+    font-size: 26px;
+    margin-top: -10px;
+}
+
+
+.boton-empezar {
+    color: #212529;
+    border: 1px solid #DDDDDD;
+    background: #F8F9FA;
+    padding: 0.5rem 2.5rem;
+    margin: 1rem 0rem 0rem;
+}
+
+.suscribete {
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.contenedor-footer {
+    padding: 1.5rem 0rem 0rem;
+    background: #28A745;
+}
+
+.container-fluid {
+    padding: inherit;
+}
+
+.footer2 {
+    padding: 1rem 2rem 1.5rem;
+}
+
+.texto-footer {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.formulario {
+    margin: 0rem 2rem;   
+}
+
+
+/*-- inicio media queries --*/
+
+
+@media (max-width: 576px) {
+    .carta-promociones { 
+        text-align: center;
+        padding: 5% 7%;
+        width: 80%;
+    } 
+}
+
+@media (max-width: 576px) {
+    .preparacion { 
+        width: 90%;
+        margin-top: 2rem;
+    } 
+}
+
+@media (max-width: 320px) {
+    .imagenheader { 
+        text-align: center;
+        width: 300px;
+        height: auto;
+        margin-left: -10px;
+        
+    } 
+}
+
+@media (max-width: 576px) {
+    .bordeheader { 
+        text-align: center;
+        height: auto;
+    } 
+}
+
+@media (max-width: 576px) {
+    .cajabotones { 
+        text-align: center;
+    } 
+}
+
+@media (max-width: 576px) {
+    .container-principal {
+        margin-top: 3rem;
+    } 
+}
+
+@media (max-width: 576px) {
+    .margen-boton {
+        margin-top: 0.7rem;
+    } 
+}
+
+@media (min-width: 577px) {
+    .container-principal {
+        margin-left: 60px;
+        margin-top: 4rem;
+    } 
+}
+
+@media (min-width: 480px) {
+    .texto-footer {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+        color: #707070;
+    }
+}
+
+@media (min-width: 480px) {
+    .footer2 {
+        padding: 1.5rem 1rem 2.5rem;
+    }
+}
